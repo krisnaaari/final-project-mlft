@@ -27,7 +27,7 @@ def summarize_text(input_text):
 
 # Streamlit UI
 st.title("Website Peringkasan Teks")
-st.write("Masukkan suatu teks atau unggah file .txt untuk mendapatkan versi ringkasnya.")
+st.write("Masukkan suatu teks atau unggah file .txt (pada sidebar di sebelah kiri) untuk mendapatkan versi ringkasnya.")
 
 # Sidebar for file upload
 st.sidebar.header("Unggah File .txt")
