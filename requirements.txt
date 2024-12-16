@@ -3,6 +3,5 @@ transformers
 torch
 sentencepiece
 pyperclip
-xclip
 gtk 
 PyQt4 
