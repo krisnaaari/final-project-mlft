@@ -1,6 +1,5 @@
 import streamlit as st
 from transformers import T5ForConditionalGeneration, T5Tokenizer
-import pyperclip
 
 # Load model and tokenizer
 @st.cache_resource
