@@ -67,11 +67,12 @@ if st.session_state.summary:
     st.subheader("Ringkasan:")
     ringkasan = st.session_state.summary
     st.write(st.session_state.summary)
-
-    # Copy to clipboard button
-    if st.button("📋 Salin Ringkasan"):
-        try:
-            pyperclip.copy(ringkasan)  # Salin ke clipboard
-            st.success("Ringkasan berhasil disalin ke clipboard!")
-        except Exception as e:
-            st.error(f"Terjadi kesalahan saat menyalin: {e}")
+    st.code(st.session_state.summary, language="")
+    st.write("Salin ringkasan langsung dari area di atas.")
+    # # Copy to clipboard button
+    # if st.button("📋 Salin Ringkasan"):
+    #     try:
+    #         pyperclip.copy(ringkasan)  # Salin ke clipboard
+    #         st.success("Ringkasan berhasil disalin ke clipboard!")
+    #     except Exception as e:
+    #         st.error(f"Terjadi kesalahan saat menyalin: {e}")
