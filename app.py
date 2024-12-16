@@ -75,4 +75,4 @@ if st.session_state.summary:
             pyperclip.copy(ringkasan)  # Salin ke clipboard
             st.success("Ringkasan berhasil disalin ke clipboard!")
         except pyperclip.PyperclipException:
-        st.error("Clipboard tidak tersedia pada sistem ini. Silakan salin secara manual")
+            st.error("Clipboard tidak tersedia pada sistem ini. Silakan salin secara manual")
