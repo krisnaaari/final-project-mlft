@@ -6,7 +6,7 @@ import pyperclip
 @st.cache_resource
 def load_model():
     model_path = r"T5_Abstractive-20241208T134228Z-001/T5_Abstractive"
-
+    # T5_Abstractive-20241208T134228Z-001/T5_Abstractive
     tokenizer = T5Tokenizer.from_pretrained(model_path)
     model = T5ForConditionalGeneration.from_pretrained(model_path)
     return model, tokenizer
