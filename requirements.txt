@@ -3,3 +3,7 @@ transformers
 torch
 sentencepiece
 pyperclip
+xsel
+xclip
+gtk 
+PyQt4 
